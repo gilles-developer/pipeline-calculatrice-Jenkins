@@ -38,7 +38,7 @@ pipeline {
 
         stage('Branch') {
             steps {
-                echo '\'nom-de-la-branche\' prout'
+                echo '\'nom-de-la-branche\' kaka-prout'
             }
         }
     }
