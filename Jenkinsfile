@@ -38,7 +38,7 @@ pipeline {
 
         stage('Branch') {
             steps {
-                echo '\'nom-de-la-branche\''
+                echo '\'nom-de-la-branche\' xyz'
             }
         }
     }
