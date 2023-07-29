@@ -35,5 +35,11 @@ pipeline {
                 }
             }
         }
+
+        stage('Branche') {
+            steps {
+                sh 'echo main'
+            }
+        }
     }
 }
